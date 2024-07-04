@@ -1,0 +1,67 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+    background: url('../../assets/gamichero.avif') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    /* Add a dark overlay to improve text readability */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    /* Secondary color */
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    /* Darker shade for hover */
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+    }
+}
