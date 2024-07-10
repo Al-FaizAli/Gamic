@@ -16,8 +16,3 @@ app.use('/api/users', authRouter)
 const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Server running on port http://localhost:${port}`));
 
-
-
-// const userRoutes = require('./routes/userRoutes');
-// app.use('/api/users', userRoutes);
-
