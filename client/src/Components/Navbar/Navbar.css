@@ -13,6 +13,7 @@
 .logo {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo img {
@@ -52,12 +53,10 @@
 
 .nav-menu a:hover {
     color: #007bff;
-    /* Change this color to match your theme */
 }
 
 .login-button {
     background-color: #007bff;
-    /* Match this color with your theme */
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -68,7 +67,6 @@
 
 .login-button:hover {
     background-color: #0056b3;
-    /* Darker shade for hover */
 }
 
 .hamburger {
